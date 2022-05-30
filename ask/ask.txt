@@ -1,0 +1,1 @@
+Selamat malam pak eko dan teman2. mau tanya ada cara yg lebih efektif tidak yaa untuk mengambil total komentar dari setiap blog yang ada. tanpa saya definisi query di bagian view.
