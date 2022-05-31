@@ -16,9 +16,27 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-         User::factory(2)->create();
+        //  User::factory(2)->create();
         //  Blog::factory(20)->create();
         //  Comment::factory(20)->create();
+        User::create(
+            [
+                'name' => 'user1',
+                'username' => 'user1',
+                'email' => 'user1@gmail.com',
+                'password' => bcrypt('123456789'), // password
+                'level' => 'admin'
+            ]
+        );
+        User::create(
+            [
+                'name' => 'user2',
+                'username' => 'user2',
+                'email' => 'user2@gmail.com',
+                'password' => bcrypt('123456789'), // password
+                'level' => 'admin'
+            ]
+        );
          
         
     }
